@@ -147,9 +147,56 @@ viewBox="0 0 576 512" fill="red">
 <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/
 >
 </svg>
-<!-- Podrían tambien cargarse imagenes vectoriales pero no sería tan facil cambiarlo de color-->
-<img src="./Icon/house-solid.svg" alt="">
 
+<img 
+src="./Icon/house-solid.svg"
+alt="icono negro"
+>
+
+<figure>
+    <figcaption> Golgen retriver multicolor</figcaption>
+    <img 
+    src="./img/Golden Retriever 3.jpg" 
+    alt="cabeza de perro con muchos colores"
+    height="300px"
+    >
+ </figure>
+
+ <h1>FORMULARIOS</h1>
+<!-- La etiqueta Label se puede conectar de dos maneras con cada input -->
+<!-- Esta es la primera forma de hacerlo, para que cuando clicke en usarname le resalte la casilla --> 
+<form action="">
+    <label>
+        Username
+        <input type="Username"  name="Usarname" placeholder="username" required>    
+    </label>
+<!-- Este es el segundo ejemplo de como se puede usar el label -->
+    <label for="edad">edad</label>
+    <input id="Edad" type="number"  name="edad" placeholder="edad" required>
+   
+   <input id="" type="email" name="email" placeholder="email" required>
+   <input type="date" name="date">
+   <input type="password" name="password">
+   <input type="color" name="color">
+   <input type="Checkbox" name="">
+
+<label>
+    Ciudad
+
+  <!-- Select es una lista que se despliega, siempre debe ir con Option value para agregar las opciones de selección -->
+   <select name="Ciudad">
+    <option value="Bogotá">Bogotá</option>
+    <option value="Medellín">Medellín</option>
+    <option value="Cali">Cali</option>
+
+   </select>
+</label>
+<!-- Se crea un input más grande que es para que los usuarios puedan ingresar parrafos -->
+<!-- Cols es el nro de caracteres, rows el nro de filas permitidas -->
+<textarea name="" id="" cols="30" rows="10"></textarea>
+   <button>Presioname</button>
+
+ </form>
 
 
 </body>
