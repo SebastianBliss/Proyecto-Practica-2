@@ -192,12 +192,74 @@ alt="icono negro"
    </select>
 </label>
 <!-- Se crea un input más grande que es para que los usuarios puedan ingresar parrafos -->
-<!-- Cols es el nro de caracteres, rows el nro de filas permitidas -->
+<!-- Cols es el nro de caracteres, rows el nro de filas permitidas --> 
 <textarea name="" id="" cols="30" rows="10"></textarea>
    <button>Presioname</button>
+ 
+</form>
 
- </form>
-
+<H1>TABLA</H1>
+<!-- Con caption ponemos que datos almacenara la tabla -->
+<!--thead es la primera fila de la tabla donde van los titulos de cada fila -->
+<!-- tr sería cada fila y th es el titulo de cada fila -->
+<table border="1px">
+    <caption>nombre de la tabla "usuarios de mi base"</caption>
+    <thead>  <!-- Encabezado -->
+        <tr> <!-- fila -->
+            <th> <!-- cntenido de la celda/casilla de del encabezado -->
+                Nombre
+            </th>
+            <th>
+                edad
+            </th>
+            <th>
+                Email
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> <!-- celda de datos -->
+                Sebastian 
+            </td>
+            <td>
+                33
+            </td>
+            <td>
+                sebas@123.com
+            </td>
+        </tr>
+        <tr>
+            <td> <!-- celda de datos -->
+                Jeronimo 
+            </td>
+            <td>
+                5
+            </td>
+            <td>
+                Jero@123.com
+            </td>
+        </tr>
+        <tr>
+            <td> <!-- celda de datos -->
+                Julian 
+            </td>
+            <td>
+                8
+            </td>
+            <td>
+                Juli@123.com
+            </td>
+        </tr>
+   </tbody>
+   <tfoot>
+    <tr>
+        <td colspan="3"> 
+            Total de Usuarios
+        </td>
+    </tr>
+   </tfoot>
+</table>
 
 </body>
 </html>  
